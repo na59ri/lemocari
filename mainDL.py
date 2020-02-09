@@ -84,7 +84,7 @@ def getData():
     X = np.asarray(X)
     Y = np.asarray(Y)
 
-    # Convert integer value to float value(0 - 1)
+    # Convert integer value to float value(Range from 0.0 to 1.0)
     X = X.astype('float32') / 255.0
 
     # Convert category
